@@ -21,5 +21,11 @@
     <ClCompile Include="test\hello.cpp">
       <Filter>Source Files\test</Filter>
     </ClCompile>
+    <ClCompile Include="basic c++\6.11_function1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basic c++\6.12_function2_Declaration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
