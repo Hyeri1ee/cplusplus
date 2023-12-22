@@ -27,5 +27,23 @@
     <ClCompile Include="basic c++\6.12_function2_Declaration.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="basic c++\6.13_passByValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basic c++\6.14_passByReference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basic c++\6.15_swap_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basic c++\6.16_return_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basic c++\6.17_variety_of_return_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="basic c++\6.26_Future_value_of_fixed_investment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
