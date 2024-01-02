@@ -45,5 +45,11 @@
     <ClCompile Include="basic c++\6.26_Future_value_of_fixed_investment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="basic c++\7.1_Circle_class.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon_bystep\5597_Anyone not submitted.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
