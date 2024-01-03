@@ -57,5 +57,8 @@
     <ClCompile Include="baekjoon_bystep\1157_mostUsedWord.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="baekjoon_bystep\2941_CroatiaAlphabet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

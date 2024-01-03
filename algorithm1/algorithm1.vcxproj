@@ -130,7 +130,10 @@
     <ClCompile Include="baekjoon_bystep\10988_Is palindrome.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="baekjoon_bystep\1157_mostUsedWord.cpp" />
+    <ClCompile Include="baekjoon_bystep\1157_mostUsedWord.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="baekjoon_bystep\2941_CroatiaAlphabet.cpp" />
     <ClCompile Include="baekjoon_bystep\5597_Anyone not submitted.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
