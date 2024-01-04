@@ -133,7 +133,10 @@
     <ClCompile Include="baekjoon_bystep\1157_mostUsedWord.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="baekjoon_bystep\1316_GroupWordChecker.cpp" />
+    <ClCompile Include="baekjoon_bystep\1316_GroupWordChecker.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="baekjoon_bystep\25206_Score.cpp" />
     <ClCompile Include="baekjoon_bystep\2941_CroatiaAlphabet.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
