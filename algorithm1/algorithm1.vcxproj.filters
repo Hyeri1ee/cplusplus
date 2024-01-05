@@ -72,5 +72,8 @@
     <ClCompile Include="baekjoon_bystep\2566_MaxValue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="baekjoon_bystep\10798_Vertical.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
