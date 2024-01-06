@@ -37,8 +37,9 @@
 |일정|내용|정리|
 |:---:|:---:|:---:|
 |22.12.23 ~ 05.01.24| 백준 단계별로 풀기 마무리|[5597](https://im-not-robot-0.tistory.com/149) [10988](https://im-not-robot-0.tistory.com/151) [1157](https://im-not-robot-0.tistory.com/153) [2941](https://im-not-robot-0.tistory.com/154) [1316](https://im-not-robot-0.tistory.com/155) [25206](https://im-not-robot-0.tistory.com/157) [10798](https://im-not-robot-0.tistory.com/158) |
-|06.01.24~13.01.24| alkon 초급 1~7주차 복습| |
-|14.01.24~21.01.24| alkon 중급 1~7주차 복습| |
+|06.01.24~13.01.24| alkon 초급 1~7주차 | |
+<span style="color:pink">07.01.24</span>| alkon 초급 1주차[<시간복잡도,Bruteforcing,STL>](https://github.com/KU-AlKon/study/blob/master/2023-2-basic/01-Time%20Complexity%2C%20Bruteforcing%2C%20Maths.pdf) |  | 
+|14.01.24~21.01.24| alkon 중급 1~7주차 | |
 | | barkingdok 문제 풀기 (알아보는중)| |
 
 
