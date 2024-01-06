@@ -87,5 +87,11 @@
     <ClCompile Include="baekjoon_bystep\2720_Donghyeok.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="baekjoon_bystep\2903_CenterMove.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="baekjoon_bystep\2292_Bee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
