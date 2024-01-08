@@ -105,5 +105,8 @@
     <ClCompile Include="baekjoon_bystep\2501_FindFactor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="baekjoon_bystep\9506_PerfectNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
