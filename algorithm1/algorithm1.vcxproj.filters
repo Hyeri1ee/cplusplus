@@ -120,7 +120,7 @@
     <ClCompile Include="DataStructures\Stack\10828_Stack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DataStructures\Stack\1874_StacSequence.cpp">
+    <ClCompile Include="DataStructures\Stack\1874_StackSequence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -172,7 +172,7 @@
     <ClCompile Include="DataStructures\Stack\10828_Stack.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="DataStructures\Stack\1874_StacSequence.cpp" />
+    <ClCompile Include="DataStructures\Stack\1874_StackSequence.cpp" />
     <ClCompile Include="DataStructures\Stack\1ArrayStackTest.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
