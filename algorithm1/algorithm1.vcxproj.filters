@@ -123,6 +123,9 @@
     <ClCompile Include="DataStructures\Stack\1874_StackSequence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DataStructures\Stack\9012_ValidParenthesisString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructures\Stack\2Student.h">

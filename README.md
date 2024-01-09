@@ -48,6 +48,6 @@
 ## :pushpin: 3. 자료구조 집중 정리
 |내용|블로그 정리|백준문제(블로그:깃헙)|참고|
 |:--:|:--:|:--:|:--:|
-|스택(Stack)|[스택정리](https://im-not-robot-0.tistory.com/159)|[[10828](https://im-not-robot-0.tistory.com/160) / [G 10828](https://github.com/Hyeri1ee/cplusplus/blob/master/algorithm1/DataStructures/Stack/10828_Stack.cpp)]  [None / [G 1874]( )]|[문제집](https://www.acmicpc.net/workbook/view/325)|
+|스택(Stack)|[스택정리](https://im-not-robot-0.tistory.com/159)|[[10828](https://im-not-robot-0.tistory.com/160) / [G 10828](https://github.com/Hyeri1ee/cplusplus/blob/master/algorithm1/DataStructures/Stack/10828_Stack.cpp)]  [None / [G 1874](https://github.com/Hyeri1ee/cplusplus/blob/master/algorithm1/DataStructures/Stack/1874_StackSequence.cpp)]  [[9012](https://im-not-robot-0.tistory.com/161) / [G 9012]()]|[문제집](https://www.acmicpc.net/workbook/view/325)|
 
 
