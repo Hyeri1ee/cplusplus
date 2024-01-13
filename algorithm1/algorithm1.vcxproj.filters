@@ -159,6 +159,12 @@
     <ClCompile Include="DataStructures\Queue\1966_PrinterQueue_otherway.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DataStructures\Queue\3190_Baem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructures\Queue\2161_Card1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructures\Stack\2Student.h">
