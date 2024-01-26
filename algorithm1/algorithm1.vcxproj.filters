@@ -183,6 +183,9 @@
     <ClCompile Include="DataStructures\Linked_List\ArrayList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DataStructures\Deque\5430_AC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructures\Stack\2Student.h">
