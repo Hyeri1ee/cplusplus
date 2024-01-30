@@ -169,7 +169,13 @@
     <ClCompile Include="baekjoon_bystep\2745_ConvertRadix.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="DataStructures\binarySearch\1920_FindNum.cpp" />
+    <ClCompile Include="DataStructures\binarySearch\1920_FindNum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DataStructures\binarySearch\2417_IntegerSquareRoot.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DataStructures\binarySearch\2805_CuttingWood.cpp" />
     <ClCompile Include="DataStructures\binarySearch\BinarySearch.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
