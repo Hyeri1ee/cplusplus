@@ -6,19 +6,19 @@ using namespace std;
 int main() {
 	int N, M;
 	cin >> N >> M;
-	int* s = new int[N];
+	long long* s = new long long[N];
 	for (int i = 0; i < N; i++)
 	{
 		cin >> s[i];
 	}
-	int low = 0;
-	int high = *max_element(s, s + N);
-	int x = 0;
-	int mid;
+	long long low = 0;
+	long long high = *max_element(s, s + N);
+	long long x = 0;
+	long long mid;
 
 	vector <int> ans;
 	while (low <= high) {
-		int total = 0;
+		long long total = 0;
 		mid = (low + high) / 2; //ÅéÀÇ À§Ä¡
 
 		for (int i = 0; i < N; i++)
