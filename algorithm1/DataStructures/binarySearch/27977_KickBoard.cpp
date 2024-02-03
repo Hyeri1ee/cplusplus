@@ -1,28 +1,56 @@
+//(BOJ)27977
 #include <iostream>
 #include <vector>
+#define MAX_N 100001
 using namespace std;
-/*
-1. 충전소가 더 이상 없는 < 마지막 충전소와 학교 사이 거리 >
-2. 충전소를 k번 들를때, 이웃한 충전소들 사이의 거리 중 가장 '큰' 거리
-*/
+
+int list[MAX_N];
+int L, N, K, maxDis;
+void input() {
+    cin >> L >> N >> K;
+
+    int pre = 0;
+    for (int i = 0; i < N; i++) {
+        cin >> list[i];
+        maxDis = max(maxDis, list[i] - pre);
+        pre = list[i];
+    }
+    maxDis = max(maxDis, L - pre);
+    list[N++] = L;
+}
+void func() {
+    int l = maxDis;
+    int r = L;
+
+    int ret = 0;
+    while (l <= r) {
+        int m = (l + r) / 2;
+
+        int now = m;//처음 가진 통의 리터
+        int pos = 0;
+        int cnt = 0;
+        for (int i = 0; i < N; i++) {
+            if (list[i] - pos > now) {//갈 수 있냐
+                cnt++;
+                now = m;
+            }
+            now -= (list[i] - pos);//움직였다
+            pos = list[i];//현재 위치
+        }
+
+        if (cnt <= K) {//통을 다시 채운 횟수가 K이하이냐 -> 그렇다면, 더 적은 통의 리터 가능하냐
+            ret = m;
+            r = m - 1;
+        }
+        else {//더 큰 통의 리터가 필요함
+            l = m + 1;
+        }
+    }
+
+    cout << ret << '\n';
+}
 int main() {
-	int L, N, K;
-	cin >> L >> N >> K;
-	vector<int> nvec;
-	for (int i = 0; i < N; i++)
-	{
-		int a;
-		cin >> a;
-		nvec.push_back(a);
-
-	}
-	int result;
-	//1의 경우 우선 고려
-	result = L - nvec[nvec.size() - 1];
-	//2의 경우 고려
-	int low = 0, high = N-1;
-	while (low < high) {
-
-	}
+	input();
+	func();
 	return 0;
 }

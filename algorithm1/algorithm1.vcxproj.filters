@@ -234,6 +234,9 @@
     <ClCompile Include="DataStructures\binarySearch\UpperBound.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DataStructures\binarySearch\2110_Share.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructures\Stack\2Student.h">
