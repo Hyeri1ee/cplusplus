@@ -181,7 +181,9 @@
     <ClCompile Include="DataStructures\binarySearch\1920_FindNum.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="DataStructures\binarySearch\2110_Share.cpp" />
+    <ClCompile Include="DataStructures\binarySearch\2110_Share.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="DataStructures\binarySearch\2417_IntegerSquareRoot.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -221,6 +223,7 @@
     <ClCompile Include="DataStructures\Linked_List\LinkedQueue.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="DataStructures\Linked_List\List_restudy\ArrayList.cpp" />
     <ClCompile Include="DataStructures\Linked_List\Node.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -364,6 +367,7 @@
     <ClInclude Include="DataStructures\Linked_List\LinkedStack.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="DataStructures\Linked_List\List_restudy\ArrayList.h" />
     <ClInclude Include="DataStructures\Linked_List\Node_Queue.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
@@ -376,6 +380,9 @@
     <ClInclude Include="DataStructures\Stack\2StudentStack.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
